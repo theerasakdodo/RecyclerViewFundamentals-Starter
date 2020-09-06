@@ -134,5 +134,6 @@ fun formatNights(nights: List<SleepNight>, resources: Resources): Spanned {
         @Suppress("DEPRECATION")
         return Html.fromHtml(sb.toString())
     }
+    class TextItemViewHolder(val textView: TextView): RecyclerView.ViewHolder(textView)
 }
 
